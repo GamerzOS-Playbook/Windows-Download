@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download Windows 10 & 11 Latest Version</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset and base styles */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', 'Arial', sans-serif;
+            color: #fff;
+            background: linear-gradient(135deg, #00f0ff, #7f00ff, #ff007f, #00ff77, #ffef00, #00f0ff, #7f00ff);
+            background-size: 300% 300%;
+            animation: rgbBG 12s ease-in-out infinite;
+            overflow-x: hidden;
+        }
+
+        @keyframes rgbBG {
+            0% {background-position: 0% 50%;}
+            25% {background-position: 50% 50%;}
+            50% {background-position: 100% 50%;}
+            75% {background-position: 50% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+        .glass {
+            margin: 40px auto;
+            max-width: 520px;
+            background: rgba(30, 30, 40, 0.75);
+            border-radius: 22px;
+            padding: 48px 28px 34px 28px;
+            box-shadow: 0 6px 32px 10px #0003, 0 1.5px 4px #0001;
+            backdrop-filter: blur(8px) saturate(1.25);
+            position: relative;
+            z-index: 2;
+        }
+        h1 {
+            color: #fff;
+            font-size: 2.2rem;
+            letter-spacing: 2px;
+            text-shadow: 0 8px 32px #7f00ff88, 0 2px 8px #00f0ff33, 0 0px 2px #ffff;
+            margin-bottom: 2.2rem;
+        }
+        .section-title {
+            margin-top: 2.1em;
+            margin-bottom: 0.6em;
+            color: #00f0ff;
+            font-weight: bold;
+            font-size: 1.12em;
+            text-shadow: 0 2px 8px #00f0ff44;
+            letter-spacing: 1px;
+        }
+        .download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 96%;
+            margin: 18px auto;
+            padding: 15px 0;
+            font-size: 1.13em;
+            font-family: inherit;
+            color: #fff;
+            background: linear-gradient(90deg, #00f0ff, #7f00ff, #ff007f, #00ff77, #ffef00, #00f0ff);
+            background-size: 400% 400%;
+            border: none;
+            border-radius: 11px;
+            text-decoration: none;
+            transition: background .24s, box-shadow .20s, transform .16s, color .2s;
+            box-shadow: 0 4px 20px #00f0ff3b, 0 2px 8px #7f00ff3b;
+            cursor: pointer;
+            animation: rgbBTN 4s linear infinite alternate;
+            font-weight: 600;
+            position: relative;
+            overflow: hidden;
+        }
+        .download-btn:hover,
+        .download-btn:focus {
+            background-position: 100% 0;
+            box-shadow: 0 8px 32px #00f0ff77, 0 4px 32px #7f00ff44;
+            color: #222;
+            transform: scale(1.035);
+        }
+        .download-btn .icon {
+            font-size: 1.3em;
+            margin-right: 14px;
+            filter: drop-shadow(0 0 6px #00f0ff99);
+            display: inline-block;
+        }
+        @keyframes rgbBTN {
+            0% {background-position: 0% 50%;}
+            100% {background-position: 100% 50%;}
+        }
+        .note {
+            font-size: 1em;
+            color: #fff;
+            margin-top: 30px;
+            background: rgba(0,0,0,0.30);
+            border-radius: 9px;
+            padding: 14px;
+            box-shadow: 0 1px 8px #00f0ff30;
+            text-shadow: 0 1px 2px #0005;
+        }
+        /* Animated glowing border */
+        .glow {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            border-radius: 22px;
+            z-index: -1;
+            pointer-events: none;
+            box-shadow: 0 0 60px 18px #00f0ff55, 0 0 30px 8px #7f00ff44;
+            opacity: 0.60;
+            animation: glowPulse 3.5s infinite alternate;
+        }
+        @keyframes glowPulse {
+            0% { opacity: 0.40; box-shadow: 0 0 40px 12px #00f0ff33, 0 0 12px 3px #7f00ff33;}
+            100% { opacity: 0.80; box-shadow: 0 0 80px 24px #00f0ff77, 0 0 32px 11px #7f00ff55;}
+        }
+        /* Responsive */
+        @media (max-width: 600px) {
+            .glass {
+                padding: 30px 4vw 20px 4vw;
+                max-width: 94vw;
+            }
+            h1 {
+                font-size: 1.33rem;
+            }
+        }
+        /* Decorative floating shapes for RGB effect */
+        .float-shape {
+            position: fixed;
+            border-radius: 50%;
+            opacity: 0.11;
+            filter: blur(9px);
+            z-index: 0;
+            animation: floaty 13s ease-in-out infinite alternate;
+        }
+        .float1 { width: 110px; height: 110px; left: 8vw; top: 10vh; background: #00f0ff; animation-delay: 0s;}
+        .float2 { width: 120px; height: 120px; right: 9vw; top: 23vh; background: #ff007f; animation-delay: 2s;}
+        .float3 { width: 105px; height: 105px; left: 17vw; bottom: 8vh; background: #ffef00; animation-delay: 4s;}
+        .float4 { width: 130px; height: 130px; right: 18vw; bottom: 14vh; background: #7f00ff; animation-delay: 1s;}
+        @keyframes floaty {
+            0% {transform: translateY(0) scale(1);}
+            100% {transform: translateY(-30px) scale(1.18);}
+        }
+    </style>
+    <!-- FontAwesome for download icon (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Floating RGB shapes -->
+    <div class="float-shape float1"></div>
+    <div class="float-shape float2"></div>
+    <div class="float-shape float3"></div>
+    <div class="float-shape float4"></div>
+    <!-- Glassy container -->
+    <div class="glass">
+        <div class="glow"></div>
+        <h1>Download Windows 10 & 11 Latest ISO</h1>
+         <div class="section-title">Windows 10 Direct ISO Downloads</div>
+        <a class="download-btn" href="https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso?t=cc66aea6-1e9c-486b-84f8-086eeefaa7b6&P1=1755661769&P2=601&P3=2&P4=VRGAcZWZa5cMdd2t8pOYvyFlpmyW%2brYDRtxRGXUerzKCiGkwxLdbrMMjBHzshvPHUzuFP%2f7AAZ9Kwc7oNxNKWazLyYAyJLe2pYCydf1565tBYzw3ApA5BYc0IW%2bNDiEiqz%2b2VFtjhraLC9%2fqHZ3Lj71%2fVrh6mUQpsiup9ADbny6J%2fwYePBgTovbRyLC2rddpVFLZlGWu%2b0y%2f9M3DH12bjUHvlg7Kbaht55zrVv4R2kzVi0wlzUauPK0GcjJTWUfZJv8e49aXIADUI63F%2bFEm%2f2Wuqg6cebxa39mgtenvnTSTU%2fGhUqavd5%2fa7XzLn9DnxfUouEXJn9qU6gsQZ3JsUQ%3d%3d" target="_blank">
+            <span class="icon"><i class="fa-brands fa-windows"></i></span>
+            Download Windows 10 x64 Bit ISO (22H2 English)
+        </a>
+        <a class="download-btn" href="https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x32v1.iso?t=cc66aea6-1e9c-486b-84f8-086eeefaa7b6&P1=1755661770&P2=601&P3=2&P4=aathWBZPa9jLiRut0NDwF0LDaUUWsqJJn%2bbDglsrMWLQ%2fwvZn14De3MZbiBqcCKJ8dtIvwgFPkoY1UwutPwOm06Gjl4p0Vl0ssFbc5sXTnnvOVwRfY%2bXFptPeY3Xg4D54JFNRDnPcoknJtvlQDFCl9hNyys0ivGBF%2bR4zpZmEpb%2faW26hTlSAA9Le1Tqaafg0HXw5KyYcCIY0IvSw%2btKrZBPQRVeeDTaeyMLYYih%2fnQz1B9y0bCKvddLCmEChWFgKH6sMn63dRVBfifHdmH%2bLyZoBUKR6uWTPgGTNJOi4MBl1c8iK8VX8k4pAaPQSLfomCeaVl8RX8gpDYqCZWGhoQ%3d%3d" target="_blank">
+            <span class="icon"><i class="fa-brands fa-windows"></i></span>
+            Download Windows 10 x32 Bit ISO (22H2 English)
+        </a>
+        <div class="section-title">Windows 11 Direct ISO Download</div>
+        <a class="download-btn" href="https://software.download.prss.microsoft.com/dbazure/Win11_24H2_English_x64.iso?t=c82e44d9-c410-46ae-b479-8cf0604670d2&P1=1755623480&P2=601&P3=2&P4=F0VVRm0HNHZtyHptWTDEisa5h%2fRM53DQ52EKh6%2bUAV%2bmaH4yQRUAhK1foTUrRs9IoHuf3t541ENWyOg3CfiwwwwepU3t6nfuQvcKRci2sh1o215obOqC0lX%2fXjx9Bf5XMuHfA1zrCpWUemacisCVuMRH2grT1olZ3Jp4g33q2nJDtagczYd66b3z9jKLvyC4%2f9lotC55T0jCVh1jgXlxnJ6yRq9Opf8gP1a9EpPCU362fuBReGnoTRuSF4LjNUIqx9yncFaHvMMkIHkviGRVJheCX6%2bDAXDUryHvMM6RWIKbNuS45QllaC5iE77HPJ6TkFC3ryKVNrAw9P%2fFpR8MVw%3d%3d" target="_blank">
+            <span class="icon"><i class="fa-brands fa-windows"></i></span>
+            Download Windows 11 x64 Bit ISO (24H2 English)
+        </a>
+        <div class="section-title">Windows 10 (Official Microsoft Page)</div>
+        <a class="download-btn" href="https://www.microsoft.com/software-download/windows10" target="_blank">
+            <span class="icon"><i class="fa-solid fa-download"></i></span>
+            Download Windows 10 (Official ISO)
+        </a>
+         <div class="section-title">Windows 11 (Official Microsoft Page)</div>
+        <a class="download-btn" href="https://www.microsoft.com/software-download/windows11" target="_blank">
+            <span class="icon"><i class="fa-solid fa-download"></i></span>
+            Download Windows 11 (Official ISO)
+        </a>
+        <div class="note">
+            <strong>Note:</strong> The above direct download links are for Windows 10 22H2 and Windows 11 24H2 English edition ISOs.<br>
+             You may need a valid license to activate Windows after installation.
+        </div>
+    </div>
+</body>
+</html>
